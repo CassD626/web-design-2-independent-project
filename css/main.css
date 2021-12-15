@@ -9,3 +9,50 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #A1D0C7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-family: Trajan-Pro-3, serif;
+  font-weight: lighter;
+  font-size: 40pt;
+  text-align: center;
+  line-height: 3.5rem;
+  color: #7F7F7F;
+  margin-bottom: auto;
+}
+
+p {
+font-size: 12pt;
+text-align: center;
+color: #7F7F7F;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+h2 {
+  font-family: Trajan-Pro-3, serif;
+  font-weight: lighter;
+  font-size: 30pt;
+  text-align: center;
+  line-height: 3.5rem;
+  color: #7F7F7F;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}

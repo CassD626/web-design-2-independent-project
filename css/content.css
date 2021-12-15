@@ -9,3 +9,30 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #A1D0C7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-family: Trajan-Pro-3, serif;
+  font-weight: lighter;
+  font-size: 40pt;
+  color: #7F7F7F;
+  margin-bottom: auto;
+}
+
+main {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 2rem;
+}
