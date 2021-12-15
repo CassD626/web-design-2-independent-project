@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: Bookmania, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
