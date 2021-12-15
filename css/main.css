@@ -56,3 +56,22 @@ section {
   justify-content: center;
   margin-top: 2rem;
 }
+
+.icon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  display: inline-block;
+}
+
+.icon .img-top {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 99;
+}
+
+.icon:hover .img-top {
+  display: inline;
+}
