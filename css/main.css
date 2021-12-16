@@ -24,6 +24,14 @@ header {
   padding-bottom: 2rem;
 }
 
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 h1 {
   font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
@@ -80,4 +88,17 @@ section {
 
 div img {
   width: 87%;
+}
+
+.button {
+  background-color: #b0d8d0;
+  border: 3px solid #b0d8d0;
+  color: #636363;
+  padding: .5em 1em;
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+.button:hover {
+ background-color: #a1d0c7;
 }
