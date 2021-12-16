@@ -57,6 +57,7 @@ header ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  padding: 0;
 }
 
 h2 {
@@ -149,7 +150,8 @@ section {
  }
 
 ul {
-  list-style: none; /* Remove default bullets */
+  list-style: none;
+  padding: 0;
 }
 
 ul.ff li::before {
