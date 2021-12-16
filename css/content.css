@@ -34,7 +34,17 @@ h1 {
 }
 
 .button {
-  background-color: #b7e1da;
+  background-color: #b0d8d0;
+  border: 3px solid #b0d8d0;
+  color: #7F7F7F;
+  padding: .5em 1em;
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+.button-2 {
+  background-color: #D8D3CB;
+  border: 3px solid #D8D3CB;
   color: #7F7F7F;
   padding: .5em 1em;
   border-radius: .5em;
@@ -108,5 +118,10 @@ section {
  }
 
  .button:hover {
-  background-color: #D8D3CB
+  background-color: #A1D0C7;
+ }
+
+ .button-2:hover {
+  background-color: #e5e1df;
+  border: 3px solid #D8D3CB;#D8D3CB
  }
