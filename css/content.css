@@ -98,6 +98,18 @@ h3 {
 .boar {
   float: right;
   width: 27%;
+  margin: .5em 0 0 .5em;
+}
+
+.vase {
+  float: right;
+  width: 27%;
+  margin: .5em 0 0 .5em;
+}
+
+.icarus {
+  float: left;
+  width: 14%;
   margin: .5em .5em 0 0;
 }
 
