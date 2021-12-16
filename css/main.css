@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: .75em;
   text-align: center;
   color: #636363;
   margin-left: 1rem;
@@ -78,6 +78,6 @@ section {
   display: inline-flex;
 }
 
-div img{
+div img {
   width: 87%;
 }
