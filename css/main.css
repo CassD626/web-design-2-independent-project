@@ -15,7 +15,7 @@ body {
   background-color: #e5e1df;
 }
 
-.skip-to-content-link {
+.skip-link {
   left: 50%;
   position: absolute;
   transform: translateY(-100%);
