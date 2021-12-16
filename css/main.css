@@ -26,9 +26,9 @@ header {
 h1 {
   font-family: Trajan-Pro-3, serif;
   font-weight: lighter;
-  font-size: 40pt;
+  font-size: 50pt;
   text-align: center;
-  line-height: 3.5rem;
+  line-height: 5rem;
   color: #7F7F7F;
   margin-bottom: auto;
 }
@@ -74,5 +74,5 @@ section {
 }
 
 .icon:hover .img-top {
-  display: inline;
+  display: inline-flex;
 }
