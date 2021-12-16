@@ -26,7 +26,7 @@ header {
 h1 {
   font-family: Trajan-Pro-3, serif;
   font-weight: lighter;
-  font-size: 60pt;
+  font-size: 3.75em;
   color: #7F7F7F;
   margin-bottom: auto;
   display: flex;
@@ -62,7 +62,7 @@ header ul {
 h2 {
   font-family: Trajan-Pro-3, serif;
   font-weight: lighter;
-  font-size: 30pt;
+  font-size: 1.88em;
   text-align: center;
   line-height: 1.5rem;
   color: #7F7F7F;
@@ -76,7 +76,7 @@ h2 {
 h3 {
   font-family: Trajan-Pro-3, serif;
   font-weight: lighter;
-  font-size: 17pt;
+  font-size: 1.06em;
   text-align: center;
   color: #7F7F7F;
   line-height: 1pt;
@@ -153,10 +153,10 @@ ul {
 }
 
 ul.ff li::before {
-  content: "\25C9";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #A1D0C7; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 2em; /* Also needed for space (tweak if needed) */
+  content: "\25C9";
+  color: #A1D0C7;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
   margin-left: -2em;
 }

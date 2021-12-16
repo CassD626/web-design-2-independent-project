@@ -27,7 +27,7 @@ header {
 h1 {
   font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 3.75em;
   text-align: center;
   line-height: 5rem;
   color: #7f7f7f;
@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 0.75em;
   text-align: center;
   color: #7f7f7f;
   margin-left: 1rem;
@@ -45,7 +45,7 @@ p {
 h2 {
   font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 1.88em;
   text-align: center;
   line-height: 3.5rem;
   color: #7f7f7f;
@@ -76,4 +76,8 @@ section {
 
 .icon:hover .img-top {
   display: inline-flex;
+}
+
+div img{
+  width: 87%;
 }
