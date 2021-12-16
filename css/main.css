@@ -17,7 +17,7 @@ body {
 
 header {
   display: flex;
-  background-color: #A1D0C7;
+  background-color: #a1d0c7;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,30 +25,30 @@ header {
 }
 
 h1 {
-  font-family: Trajan-Pro-3, serif;
+  font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
-  font-size: 50pt;
+  font-size: 50px;
   text-align: center;
   line-height: 5rem;
-  color: #7F7F7F;
+  color: #7f7f7f;
   margin-bottom: auto;
 }
 
 p {
-font-size: 12pt;
-text-align: center;
-color: #7F7F7F;
-margin-left: 1rem;
-margin-right: 1rem;
+  font-size: 12px;
+  text-align: center;
+  color: #7f7f7f;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h2 {
-  font-family: Trajan-Pro-3, serif;
+  font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
-  font-size: 30pt;
+  font-size: 30px;
   text-align: center;
   line-height: 3.5rem;
-  color: #7F7F7F;
+  color: #7f7f7f;
 }
 
 section {
@@ -67,11 +67,11 @@ section {
 }
 
 .icon .img-top {
- display: none;
- position: absolute;
- top: 0;
- left: 0;
- z-index: 99;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .icon:hover .img-top {
