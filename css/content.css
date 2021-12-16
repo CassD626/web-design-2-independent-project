@@ -67,6 +67,10 @@ h2 {
   line-height: 1.5rem;
   color: #7F7F7F;
   margin-top: 4rem;
+  text-decoration: underline;
+  text-decoration-color: #A1D0C7;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 2px;
 }
 
 h3 {
@@ -88,6 +92,12 @@ h3 {
 .atalanta {
   float: left;
   width: 10%;
+  margin: .5em .5em 0 0;
+}
+
+.boar {
+  float: right;
+  width: 27%;
   margin: .5em .5em 0 0;
 }
 
@@ -125,3 +135,16 @@ section {
   background-color: #e5e1df;
   border: 3px solid #D8D3CB;#D8D3CB
  }
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.ff li::before {
+  content: "\25C9";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #A1D0C7; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: -2em;
+}
