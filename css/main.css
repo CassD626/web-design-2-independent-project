@@ -3,20 +3,24 @@ html {
   line-height: normal;
   font-family: Bookmania, serif;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
   background-color: #e5e1df;
 }
+
 .skip-link {
   left: 50%;
   position: absolute;
   transform: translateY(-100%);
 }
+
 header {
   display: flex;
   background-color: #a1d0c7;
@@ -25,6 +29,7 @@ header {
   align-items: center;
   padding-bottom: 2rem;
 }
+
 header ul {
   list-style-type: none;
   display: flex;
@@ -32,6 +37,7 @@ header ul {
   justify-content: center;
   gap: 1rem;
 }
+
 h1 {
   font-family: "Trajan-Pro-3", serif;
   font-weight: lighter;
